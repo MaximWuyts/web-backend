@@ -4,6 +4,7 @@
 	$_tekst 		= 	'test';
 	$zin			= 	"Jean D'Haeseleir gaat naar Praag!!";
 	$beschrijving 	= 	"Vogelbekdier";
+	#test
 ?>
 
 <!DOCTYPE html>
