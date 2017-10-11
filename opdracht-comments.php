@@ -19,6 +19,7 @@ $achternaam =   'Wuyts';
     <title>Opdracht comments </title>
 </head>
 <body>
+
     <h1>Opdracht comments</h1>
     <p>  <?php echo $voornaam . ' ' . $achternaam  ?>   </p>
 </body>

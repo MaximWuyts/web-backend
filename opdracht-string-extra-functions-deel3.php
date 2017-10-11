@@ -16,7 +16,7 @@ $vervang         = str_replace($lettertje,$cijfertje,$langstewoord);
 <body>
     <h1>Opdracht String extra functions deel3</h1>
     <ul>
-        <li>het woord <?php echo $langstewoord ?> waarin de letter e vervangen is door een 3 --> <?php echo $vervang ?></li>
+        <li>het woord <?php echo $langstewoord ?> waarin de letter e vervangen is door een 3  --> <?php echo $vervang ?></li>
     </ul>
 </body>
 </html>
