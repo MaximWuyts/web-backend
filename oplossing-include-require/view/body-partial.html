@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+        <nav>
+            <ul>
+                <li><a href="">Nieuws</a></li>
+                <li><a href="">Onze Redactie</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <main class="cfx">
+            <h3>Nieuws</h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia veniam necessitatibus obcaecati numquam, aliquam, eos tenetur pariatur nisi. Cum maxime voluptatibus totam delectus dolore quasi animi sit a tempore ad?</p>
+         
+         <?php foreach ($artikels as $value => $artikel): ?>
+             <div>
+                 <h1><?= $artikel['title'] ?></h1>
+                 <p><?= $artikel['body'] ?></p>
+                 <p><?= $artikel['tags'] ?></p>
+                 <a href="#">lees meer</a>
+             </div>
+         <?php endforeach ?>
+         </main>   
+</body>
+</html>
